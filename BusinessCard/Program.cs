@@ -4,12 +4,14 @@
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("+-----------------------------------+");
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("Doruk Artuc");
+            Console.WriteLine("| Doruk Artuc                       |");
             Console.ResetColor();
-            Console.WriteLine("Opleiding: Graduaat programmeren");
-            Console.WriteLine("Klas: 1PROD");
-            Console.WriteLine("Favoriete taal: C#");
+            Console.WriteLine("| Opleiding: Graduaat programmeren  |");
+            Console.WriteLine("| Klas: 1PROD                       |");
+            Console.WriteLine("| Favoriete taal: C#                |");
+            Console.WriteLine("+-----------------------------------+");
         }
     }
 }

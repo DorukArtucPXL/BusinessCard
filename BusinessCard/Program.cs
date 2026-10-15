@@ -13,7 +13,9 @@
     |_____/ \___/|_|   \__,_|_|\_\ /_/    \_\_|   \__|\__,_|\___|
 
     """;
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine(ascii);
+            Console.ResetColor();
             Console.WriteLine("+-----------------------------------+");
             Console.WriteLine("| Opleiding: Graduaat programmeren  |");
             Console.WriteLine("| Klas: 1PROD                       |");
